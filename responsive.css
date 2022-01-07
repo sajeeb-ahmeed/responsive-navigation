@@ -1,0 +1,198 @@
+@media (max-width: 952px) {
+    label .logo {
+        font-size: 3rem;
+        padding-left: 5rem;
+    }
+
+    .menu ul li a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(#042d62, #164590);
+        top: 8rem;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: 5rem 0;
+        line-height: 0.5rem;
+    }
+
+    .menu ul li a {
+        font-size: 1.4rem;
+        text-transform: none;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #131212;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .menu ul li:hover {
+        background-image: linear-gradient(royalblue, rgba(32, 148, 194, 0.644));
+        padding: 0.5rem 1.3rem;
+        transition: all 0.5s ease;
+        border: 1px solid royalblue;
+    }
+
+    .banner-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        padding: 0;
+        display: block;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .banner-left {
+        width: 100%;
+    }
+
+    .banner-left img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .myname {
+        width: 100%;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .myname h1,
+    intro-h3 {
+        font-weight: 700;
+        font-size: 4rem;
+        padding-top: 2rem;
+    }
+
+    .btn-grad {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        font-weight: normal;
+        letter-spacing: 0px;
+        padding: 1rem 3rem;
+
+    }
+
+    .intro {
+        background-image: url("../image/josh-rose-fida.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .service-section {
+        background-image: linear-gradient(#020202, #020202);
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .intro {
+        background-image: url("../image/josh-rose-fida.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .service-section {
+        background-image: linear-gradient(#020202, #020202);
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .intro {
+        background-image: linear-gradient(#5959dd, #972cc8);
+        background: rgb(219, 105, 155);
+    }
+
+    .service-section {
+        background-image: linear-gradient(#5959dd, #972cc8);
+        background: rgb(219, 105, 155);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .intro {
+        background-image: linear-gradient(#5959dd, #972cc8);
+    }
+
+    .service-section {
+        background-image: linear-gradient(#952DC9, #952DC9);
+    }
+
+    .logo {
+        width: 13%;
+    }
+
+    .btn-grad {
+        margin-top: 5rem;
+
+    }
+
+    .span-1 {
+        font-size: 4.3rem;
+        background: -webkit-linear-gradient(#ff2282, #eeaeee);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .span-2 {
+        font-size: 4.3rem;
+        background: -webkit-linear-gradient(#fffb1a, #d50df0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .intro {
+        background-image: url("../image/josh-rose-fida.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .service-section {
+        background-image: linear-gradient(#020202, #020202);
+    }
+
+    .logo {
+        width: 10%;
+    }
+}
